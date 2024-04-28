@@ -15,7 +15,8 @@ const Home = () => {
            Hi Chatsaurs Pro User
           </h2>
           <div className="flex flex-col gap-2">
-            <h1 className="text-4xl font-extrabold lg:text-7xl">{date}</h1>
+            <h1 className="text-4xl font-extrabold lg:text-7xl">Today</h1>
+            <p className="text-4xl font-extrabold lg:text-7xl">{date}</p>
           </div>
         </div>
       </div>
